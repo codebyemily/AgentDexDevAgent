@@ -37,7 +37,7 @@ def run(task: str) -> None:
 
     while True:
         with client.messages.stream(
-            model="claude-opus-4-8",
+            model="claude-sonnet-4-6",
             max_tokens=8096,
             system=SYSTEM_PROMPT,
             tools=TOOLS,
